@@ -49,9 +49,7 @@ a:visited {
 }
 
 
-
-
-
+/* RED - GREEN SECTION */
 .red{
     background-color: red;
 }
@@ -97,3 +95,6 @@ a:visited {
     text-align: center;
     color: green;
 }
+
+/* YELLOW SECTION END */
+
