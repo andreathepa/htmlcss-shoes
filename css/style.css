@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: red;
+}
+
+.row{
+    display: flex;
+    justify-content: right;
+}
+
+li{
+    border-radius: 110px;
+    background-color: white;
+    color: black;
+    height: 73px;
+    list-style: none;
+    font-size: 25px;
+    padding: 24px 28px;
+    margin: 31px;  
+}
+
+.link{
+    text-decoration: none;
+}
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+
+
+
+
+.red{
+    background-color: red;
+}
+
+.contenitore{
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.text{
+    text-align: center;
+    color: yellow;
+}
+
+.images{
+    width: 100%;
+}
+
+.green{
+    background-color: green;
+}
+/* RED - GREEN SECTION END */
+
+/* YELLOW SECTION */
+
+.yellow{
+    background-color: yellow;
+}
+
+
+.content-yellow{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+
+.text-y{
+    text-align: center;
+    color: green;
+}
